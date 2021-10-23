@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Prata&display=swap" rel="stylesheet">
+    <title>Marginary</title>
+    <link rel="shortcut icon" href="assets/icons/Logo.png" type="image/png">
+    <meta name="viewport" content="width=1200">
+</head>
+<body>
+   <div class="changecontainer">
+          <div class="header">
+       <div class="container">
+           <div class="header_inner">
+              <div class="logo">
+                  <img src="assets/img/logo.png">
+              </div>
+               <nav class="nav">
+                   <a class="nav_link1" href="#">Главная</a>
+                   <a class="nav_link2" href="#popular">Каталог</a>
+                   <a class="nav_link3" href="#about">О компании</a>
+                   <a class="nav_link4" href="#contacts">Контакты</a>
+               </nav>
+              <div class="headertel">+7 (495) 375-12-90</div>
+           </div>
+       </div>
+   </div>
+    <div class="intro">
+       <div class="container">
+           <h1 class="quin">
+               Стань королевой своего бала
+           </h1>
+           <h2 class="head1">
+               Не упусти возоможность приобрести великолепные ювелирные украшения в нашем онлайн-магазине
+           </h2>
+           <a class="btn" href="#popular">Посмотреть коллекции</a>
+       </div>
+        </div>
+    <div class="popular" id="popular">
+        <div class="popularname">Каталог</div>
+            <main>
+                <a class="ring" href="javascript:PopUpCatalog1Show()">
+                  <img src="assets/icons/Ring.png" class="ringimg">
+                   <p class="ringlook">Кольца</p>
+                </a>
+               <a class="necklace" href="javascript:PopUpCatalog2Show()">
+                   <img src="assets/icons/Necklace.png" class="necklaceimg">
+                   <p class="necklacelook">Колье</p>
+               </a>
+               <a class="bracelet" href="javascript:PopUpCatalog3Show()">
+                   <img src="assets/icons/Bracelet.png" class="braceletimg">
+                   <p class="braceletlook">Браслеты</p>
+               </a>
+               <a class="sharm" href="javascript:PopUpCatalog4Show()">
+                   <img src="assets/icons/Sharm.png" class="sharmimg">
+                   <p class="sharmlook">Шармы</p>
+               </a>
+            </main>
+            <div class="hiddencatalog1" id="hiddencatal1">
+                <img src="assets/img/Collection.png">
+                <div class="ring_item1">
+                    <img class="ring1" src="assets/img/items/Ring1/1.png">
+                    <div class="name1">Кольцо «Мечта сердца»</div>
+                    <div class="price1">3 490 руб.</div>
+                    <a class="ringtext1" href="pages/page1.html">Посмотреть</a>
+                </div>
+                <div class="ring_item2">
+                    <img class="ring2" src="assets/img/items/Ring2/1.png">
+                    <div class="name2">Кольцо «Корона»</div>
+                    <div class="price2">5 590 руб.</div>
+                    <a class="ringtext2" href="pages/page2.html">Посмотреть</a>
+                </div>
+                <div class="ring_item3">
+                    <img class="ring3" src="assets/img/items/Ring3/1.png">
+                    <div class="name3">Кольцо «Сияющая капля»</div>
+                    <div class="price3">9 990 руб.</div>
+                    <a class="ringtext3" href="pages/page3.html">Посмотреть</a>
+                </div>
+                <a href="javascript:PopUpCatalog1Hide()">
+                   <img src="assets/icons/Cross.png" class="crossbtn1">
+                </a>
+            </div>
+            <div class="hiddencatalog2" id="hiddencatal2">
+                <img src="assets/img/Collection.png">
+                <div class="necklace_item1">
+                    <img class="necklace1" src="assets/img/items/Necklace1/3.png">
+                    <div class="name4">Колье с кулоном «Логомания»</div>
+                    <div class="price4">14 990 руб.</div>
+                    <a class="necklacetext4" href="pages/page10.html">Посмотреть</a>
+                </div>
+                <div class="necklace_item2">
+                    <img class="necklace2" src="assets/img/items/Necklace2/1.png">
+                    <div class="name5">Колье с кулоном «Сердцеедка»</div>
+                    <div class="price5">5 990 руб.</div>
+                    <a class="necklacetext5" href="pages/page11.html">Посмотреть</a>
+                </div>
+                <div class="necklace_item3">
+                    <img class="necklace3" src="assets/img/items/Necklace3/2.png">
+                    <div class="name6">Колье с кулоном «Сплетенное сердце»</div>
+                    <div class="price6">6 490 руб.</div>
+                    <a class="necklacetext6" href="pages/page12.html">Посмотреть</a>
+                </div>
+                <a href="javascript:PopUpCatalog2Hide()">
+                   <img src="assets/icons/Cross.png" class="crossbtn2">
+                </a>
+            </div>
+            <div class="hiddencatalog3" id="hiddencatal3">
+                <img src="assets/img/Collection.png">
+                <div class="bracelet_item1">
+                    <img class="bracelet1" src="assets/img/items/Braclet1/1.png">
+                    <div class="name7">Браслет Reflexions</div>
+                    <div class="price7">12 990 руб.</div>
+                    <a class="bracelettext7" href="pages/page7.html">Посмотреть</a>
+                </div>
+                <div class="bracelet_item2">
+                    <img class="bracelet2" src="assets/img/items/Braclet2/1.png">
+                    <div class="name8">Браслет «Древо жизни»</div>
+                    <div class="price8">5 990 руб.</div>
+                    <a class="bracelettext8" href="pages/page8.html">Посмотреть</a>
+                </div>
+                <div class="bracelet_item3">
+                    <img class="bracelet3" src="assets/img/items/Braclet3/1.png">
+                    <div class="name9">Браслет Reflexions «Цепочки»</div>
+                    <div class="price9">9 990 руб.</div>
+                    <a class="bracelettext9" href="pages/page9.html">Посмотреть</a>
+                </div>
+                <a href="javascript:PopUpCatalog3Hide()">
+                   <img src="assets/icons/Cross.png" class="crossbtn3">
+                </a>
+            </div>
+            <div class="hiddencatalog4" id="hiddencatal4">
+                <img src="assets/img/Collection.png">
+                <div class="sharm_item1">
+                    <img class="sharm1" src="assets/img/items/Sharm1/1.png">
+                    <div class="name10">Шарм Moments «Театральная маска»</div>
+                    <div class="price10">12 990 руб.</div>
+                    <a class="sharmtext10" href="pages/page4.html">Посмотреть</a>
+                </div>
+                <div class="sharm_item2">
+                    <img class="sharm2" src="assets/img/items/Sharm2/1.png">
+                    <div class="name11">Браслет «Древо жизни»</div>
+                    <div class="price11">5 990 руб.</div>
+                    <a class="sharmtext11" href="pages/page5.html">Посмотреть</a>
+                </div>
+                <div class="sharm_item3">
+                    <img class="sharm3" src="assets/img/items/Sharm3/1.png">
+                    <div class="name12">Браслет Moments «Корона»</div>
+                    <div class="price12">9 990 руб.</div>
+                    <a class="sharmtext12" href="pages/page6.html">Посмотреть</a>
+                </div>
+                <a href="javascript:PopUpCatalog4Hide()">
+                   <img src="assets/icons/Cross.png" class="crossbtn4">
+                </a>
+            </div>
+      </div>    
+      <div class="about" id="about">
+            <div class="aboutcompany">О компании</div>
+            <h3 class="h3">Мы - команда мечтателей</h3>
+            <p class="text">С 2000 года мы занимаемся продажей качетсвенных ювелирных украшений для красивых дам и неменее красивых джентельменов.</p>
+            <p class="text2">Мы определяем в качестве приоритета многообразие, создаем инклюзивную среду и поощряем рост для положительного влияния на сотрудников, клиентов и окружающих.</p>
+            <p class="text3">Мы стремимся сделать так, чтобы на каждом этапе своего пути наша компания...
+            </p>
+            <main>
+                <a class="readbtn" href="javascript:PopUpAboutShow()">Читать далее
+                  <img class="arrow1" src="assets/icons/ArrowRight1.png">
+                </a>
+            </main>
+            <img class="work1" src="assets/img/Working1.png">
+            <div class="hiddencontainer" id="hidden">
+             <h3 class="hiddentext">Мы - команда мечтателей</h3>
+              <p class="hiddentext1">С 2000 года мы занимаемся продажей качетсвенных ювелирных украшений для красивых дам и неменее красивых джентельменов.</p>
+              <p class="hiddentext2">Мы определяем в качестве приоритета многообразие, создаем инклюзивную среду и поощряем рост для положительного влияния на сотрудников, клиентов и окружающих.</p>
+              <p class="hiddentext3">Мы стремимся сделать так, чтобы на каждом этапе своего пути наша продукция приносила пользу людям и планете.
+              </p>
+              <p class="hiddentext4">
+                  Наши украшения отличаются высоким качеством и прелестным внешним видом, который украсит любого искушенного ценителя украшений.
+              </p>
+              <p class="hiddentext5">Приобретайте юведирные изделия с удобной доставкой по всей России.</p>
+              <p class="hiddentext6">Желаем вам приятных покупок!</p>
+              <a href="javascript:PopUpAboutHide()">
+                  <img src="assets/icons/Cross.png" class="crossabout">
+              </a>
+            </div>
+       </div>
+       <div class="contact" id="contacts">
+            <a href="https://www.google.com/maps/place/gorod+Stolits,+%D0%9F%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BD%D0%B0%D0%B1.,+8+%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5+1,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+123317/@55.7471351,37.5369561,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bdc5428a163:0x3b0b79e32bc6df32!8m2!3d55.7471321!4d37.5391448" target="_blank">
+            <img class="gmaps" src="assets/img/googlemaps.png">
+            </a>
+            <div class="contacts">Контакты</div>
+            <div class="questions">Остались вопросы? Задавайте!</div>
+            <img class= "telico" src="assets/icons/Tel.png">
+            <div class="tel">+7 (495) 375-12-90</div>
+            <img class= "mailico" src="assets/icons/Mail.png">
+            <div class="mail">marginarysupport@gmail.com</div>
+            <img class= "pin" src="assets/icons/Pin.png">
+            <div class="adress">Пресненская наб., 8 стр 1, Москва, 123112</div>
+            <div class="support">
+              <input class="nameinput" type="text" value="Имя">
+              <input class="familyinput" type="text" value="Фамилия">
+              <input class="telinput" type="text" value="Номер телефона">
+              <input class="emailinput" type="text" value="E-mail">
+               <div class="name"></div>
+               <div class="family"></div>
+               <div class="numbertel"></div>
+               <div class="email"></div>
+            </div>
+            <main>
+                <a class="supportbtn" href="javascript:PopUpShow()">Заказать звонок</a>
+            </main>
+               <div class="overlay">
+                   <div class="popup" id="popup1">
+                       <div>Ваша заявка принята. Дождиетсь звонка!</div>
+                       <a href="javascript:PopUpHide()">
+                           <img src="assets/icons/Cross.png" class="close-popup">
+                       </a>
+                   </div>
+               </div>
+        </div>
+        <div class="footer">
+            <img class="footerlogo" src="assets/img/logo.png">
+            <div class="copyright">Copyright © 2000-2021 Marginary Co. All rights reserved.</div>
+            <div class="contactus">CONTACT US</div>
+            <div class="privacypolicy">PRIVACY POLICY</div>
+            <div class="termsofuse">TERMS OF USE</div>
+            <div class="socialnetw">Социальные сети</div>
+            <img class="YT" src="assets/icons/YouTube.png">
+            <img class="VK" src="assets/icons/VK.png">
+            <img class="TW" src="assets/icons/Twitter.png">
+            <img class="FB" src="assets/icons/Facebook.png">
+            <img class="Inst" src="assets/icons/Instagram.png">
+        </div>
+   </div>
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/scroll.js"></script>
+    <script src="JS/transfer.js"></script>
+    <script src="JS/poupcatalog1.js"></script>
+    <script src="JS/poupcatalog2.js"></script>
+    <script src="JS/poupcatalog3.js"></script>
+    <script src="JS/poupcatalog4.js"></script>
+    <script src="JS/popupabout.js"></script>
+    <script src="JS/popupfooter.js"></script>
+</body>
+</html>
